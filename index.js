@@ -140,7 +140,6 @@ const Control = ({ config, snake, getGame, updateGame, food }) => {
  * @returns
  */
 const Snake = ({ config, food, utils, map, getGame }) => {
-  // gender snake
   let canUpdateDirection = true;
   let direction = config.snake.direction;
   let gameSnake = [...config.snake.location];
